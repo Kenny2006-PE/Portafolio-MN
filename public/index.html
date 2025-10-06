@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Melanie Nieves | UI/UX Developer Portfolio</title>
+    <meta name="description" content="Portafolio de Melanie Nieves Chavez - Diseñadora y Desarrolladora UI/UX especializada en crear experiencias digitales intuitivas y funcionales">
+    <meta name="keywords" content="UI/UX, Desarrolladora, Diseño, Frontend, Figma, JavaScript, HTML, CSS">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="alternate icon" href="/favicon.ico">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <!-- Loader -->
+    <div class="loader" id="loader">
+        <div class="loader-content">
+            <div class="loader-circle"></div>
+            <p>Melanie Nieves</p>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">MN</span>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link active">Inicio</a>
+                <a href="#about" class="nav-link">Sobre mí</a>
+                <a href="#skills" class="nav-link">Habilidades</a>
+                <a href="#projects" class="nav-link">Proyectos</a>
+                <a href="#contact" class="nav-link">Contacto</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="floating-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+                <div class="shape shape-4"></div>
+                <div class="shape shape-5"></div>
+            </div>
+        </div>
+        <div class="hero-container">
+            <div class="hero-content" data-aos="fade-up" data-aos-duration="1000">
+                <h1 class="hero-title">
+                    Hola, soy <span class="highlight">Melanie Nieves</span>
+                </h1>
+                <h2 class="hero-subtitle">
+                    <span class="typing-text"></span>
+                </h2>
+                <p class="hero-description">
+                    Estudiante de Diseño y Desarrollo de Software con pasión por crear 
+                    experiencias digitales que combinan creatividad y funcionalidad.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        <i class="fas fa-folder-open"></i>
+                        Ver Proyectos
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <i class="fas fa-envelope"></i>
+                        Contactar
+                    </a>
+                </div>
+                <div class="hero-social">
+                    <a href="https://www.linkedin.com/in/melanie-nieves-ch/" target="_blank" class="social-link">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://github.com/meliniev" target="_blank" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="mailto:melanie.nieves.ch@gmail.com" class="social-link">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+                <div class="image-container">
+                    <div class="image-placeholder">
+                        <i class="fas fa-user"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-mouse">
+                <div class="scroll-wheel"></div>
+            </div>
+            <span>Scroll</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">Conoce más</span>
+                <h2 class="section-title">Sobre mí</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-right">
+                    <p class="about-description">
+                        Soy <strong>Melanie Nieves</strong>, estudiante de Diseño y Desarrollo de Software en TECSUP, 
+                        con un profundo interés en el diseño de interfaces y la experiencia de usuario (UI/UX). 
+                        Mi objetivo es combinar creatividad y funcionalidad para crear soluciones tecnológicas 
+                        que sean intuitivas y eficientes.
+                    </p>
+                    <p class="about-description">
+                        Tengo experiencia en la creación de prototipos y maquetas con Figma, además de un buen 
+                        manejo de herramientas como HTML, CSS y JavaScript, lo que me permite dar vida a diseños 
+                        atractivos y prácticos. Actualmente, estoy ampliando mis conocimientos en UI/UX mediante 
+                        un curso especializado y buscando oportunidades para aprender y contribuir en proyectos reales.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">2+</span>
+                            <span class="stat-label">Años de Estudio</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">10+</span>
+                            <span class="stat-label">Proyectos</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">100%</span>
+                            <span class="stat-label">Dedicación</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image" data-aos="fade-left">
+                    <div class="about-img-container">
+                        <div class="about-img-placeholder">
+                            <i class="fas fa-palette"></i>
+                        </div>
+                        <div class="floating-icons">
+                            <i class="fab fa-figma"></i>
+                            <i class="fab fa-js-square"></i>
+                            <i class="fab fa-html5"></i>
+                            <i class="fab fa-css3-alt"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">Mis capacidades</span>
+                <h2 class="section-title">Habilidades</h2>
+            </div>
+            <div class="skills-content">
+                <div class="skills-categories">
+                    <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
+                        <div class="category-icon">
+                            <i class="fas fa-paint-brush"></i>
+                        </div>
+                        <h3 class="category-title">Diseño UI/UX</h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Figma</span>
+                                    <span class="skill-level">90%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="90"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Prototipado</span>
+                                    <span class="skill-level">85%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="85"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">User Research</span>
+                                    <span class="skill-level">75%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="75"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
+                        <div class="category-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3 class="category-title">Desarrollo Frontend</h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">HTML5</span>
+                                    <span class="skill-level">95%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="95"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">CSS3</span>
+                                    <span class="skill-level">90%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="90"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">JavaScript</span>
+                                    <span class="skill-level">80%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="80"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-category" data-aos="fade-up" data-aos-delay="300">
+                        <div class="category-icon">
+                            <i class="fas fa-tools"></i>
+                        </div>
+                        <h3 class="category-title">Herramientas</h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Git & GitHub</span>
+                                    <span class="skill-level">85%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="85"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">VS Code</span>
+                                    <span class="skill-level">90%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="90"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Adobe Creative Suite</span>
+                                    <span class="skill-level">70%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="70"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">Mi trabajo</span>
+                <h2 class="section-title">Proyectos</h2>
+            </div>
+            <div class="projects-filter" data-aos="fade-up" data-aos-delay="100">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="ui-ux">UI/UX</button>
+                <button class="filter-btn" data-filter="frontend">Frontend</button>
+                <button class="filter-btn" data-filter="mobile">Mobile</button>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card" data-category="ui-ux" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-image">
+                        <div class="project-img-placeholder">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                                <a href="#" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-category">UI/UX Design</div>
+                        <h3 class="project-title">App de Gestión de Tareas</h3>
+                        <p class="project-description">
+                            Diseño completo de una aplicación móvil para gestión de tareas 
+                            con enfoque en la experiencia del usuario.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Figma</span>
+                            <span class="tech-tag">Prototyping</span>
+                            <span class="tech-tag">User Research</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="frontend" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-image">
+                        <div class="project-img-placeholder">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                                <a href="#" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-category">Frontend Development</div>
+                        <h3 class="project-title">Landing Page Corporativa</h3>
+                        <p class="project-description">
+                            Desarrollo de una landing page moderna y responsiva 
+                            con animaciones y efectos interactivos.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="ui-ux" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-image">
+                        <div class="project-img-placeholder">
+                            <i class="fas fa-shopping-cart"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                                <a href="#" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-category">UI/UX Design</div>
+                        <h3 class="project-title">E-commerce Platform</h3>
+                        <p class="project-description">
+                            Diseño de interfaz y experiencia de usuario para una 
+                            plataforma de comercio electrónico.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Figma</span>
+                            <span class="tech-tag">Wireframing</span>
+                            <span class="tech-tag">User Testing</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="mobile" data-aos="fade-up" data-aos-delay="400">
+                    <div class="project-image">
+                        <div class="project-img-placeholder">
+                            <i class="fas fa-heartbeat"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                                <a href="#" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-category">Mobile App</div>
+                        <h3 class="project-title">Health Tracker App</h3>
+                        <p class="project-description">
+                            Aplicación móvil para el seguimiento de hábitos saludables 
+                            con interfaz intuitiva y motivacional.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React Native</span>
+                            <span class="tech-tag">UI Design</span>
+                            <span class="tech-tag">Mobile UX</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">Hablemos</span>
+                <h2 class="section-title">Contacto</h2>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right">
+                    <h3 class="contact-subtitle">¡Trabajemos juntos!</h3>
+                    <p class="contact-description">
+                        Estoy siempre abierta a nuevas oportunidades y colaboraciones. 
+                        Si tienes un proyecto en mente o simplemente quieres conectar, 
+                        no dudes en contactarme.
+                    </p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <span class="contact-label">Email</span>
+                                <span class="contact-value">melanie.nieves.ch@gmail.com</span>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fab fa-linkedin"></i>
+                            </div>
+                            <div class="contact-text">
+                                <span class="contact-label">LinkedIn</span>
+                                <span class="contact-value">melanie-nieves-ch</span>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fab fa-github"></i>
+                            </div>
+                            <div class="contact-text">
+                                <span class="contact-label">GitHub</span>
+                                <span class="contact-value">meliniev</span>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <span class="contact-label">Ubicación</span>
+                                <span class="contact-value">Lima, Perú</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form" data-aos="fade-left">
+                    <form class="form" id="contact-form">
+                        <div class="form-group">
+                            <input type="text" class="form-input" id="name" name="name" required>
+                            <label class="form-label" for="name">Nombre</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-input" id="email" name="email" required>
+                            <label class="form-label" for="email">Email</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-input" id="subject" name="subject" required>
+                            <label class="form-label" for="subject">Asunto</label>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-input form-textarea" id="message" name="message" rows="5" required></textarea>
+                            <label class="form-label" for="message">Mensaje</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">
+                            <i class="fas fa-paper-plane"></i>
+                            Enviar Mensaje
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2024 Melanie Nieves Chavez. Todos los derechos reservados.</p>
+                    <p>Diseñado y desarrollado con <i class="fas fa-heart"></i> y <i class="fas fa-coffee"></i></p>
+                </div>
+                <div class="footer-social">
+                    <a href="https://www.linkedin.com/in/melanie-nieves-ch/" target="_blank" class="social-link">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://github.com/meliniev" target="_blank" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="mailto:melanie.nieves.ch@gmail.com" class="social-link">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="back-to-top" id="back-to-top">
+                    <i class="fas fa-chevron-up"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="/js/script.js"></script>
+</body>
+</html>
